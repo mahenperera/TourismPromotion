@@ -1,0 +1,331 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: OCR A Std, monospace;
+}
+
+body img {
+    border-radius: 10px;
+}
+
+
+
+
+
+/*top navigation bar */
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    background-color: #000066;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-item a {
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+    position: relative;
+    left: 32%;
+    
+}
+
+.nav-item a:hover {
+	background-color: #0000e6;
+}
+
+.active {
+    background-color: #0000e6;
+}
+
+
+
+
+
+/*footer*/
+footer {
+    background-color: #000066;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.f1 {
+    background-color: #000066; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    margin-top: 2680px;
+}
+
+.f2 {
+    background-color: #000066; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    margin-top: 2950px;
+}
+
+.f3 {
+    background-color: #000066; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    margin-top: 4460px;
+}
+
+.footer-p {
+    text-align: center;
+}
+
+
+
+
+
+/*home page*/
+.banner {
+    background-image: url("images/sigiriya.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 500px 0;
+    position: relative;
+}
+
+.description {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.heading
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+.transparent-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.transparent-box p {
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttons a {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 170px;
+}
+
+.buttons a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+p {
+    text-align: left;
+}
+
+
+
+
+
+/*destinations page*/
+.dest-head {
+    background-color: rgba(255, 255, 255, 0.225);
+    padding: 20px;
+    border-radius: 10px;
+    width: 1200px;
+    color: black;
+    font-weight: bold;
+    margin-top: 2100px;
+    font-size: 30px;
+}
+
+.dest-box {
+    background-color: rgba(0, 0, 0, 0.225);
+    padding: 20px;
+    border-radius: 10px;
+    width: 1200px;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+/*activities page*/
+.act-head {
+    background-color: rgba(255, 255, 255, 0.225);
+    padding: 20px;
+    border-radius: 10px;
+    width: 1200px;
+    color: black;
+    font-weight: bold;
+    margin-top: 2400px;
+    font-size: 30px;
+}
+
+.act-box {
+    background-color: rgba(0, 0, 0, 0.225);
+    width: 1200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.act-description {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.act-description h2 {
+    text-align: left;
+}
+
+
+
+
+
+/*accomodations page*/
+.description-acc {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.acc-head {
+    background-color: rgba(255, 255, 255, 0.225);
+    padding: 20px;
+    border-radius: 10px;
+    width: 1200px;
+    color: black;
+    font-weight: bold;
+    margin-top: 3900px;
+    font-size: 30px;
+}
+
+.p-field {
+    background-color: rgba(0, 0, 0, 0.225);
+    width: 550px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.acc-box {
+    background-color: rgba(0, 0, 0, 0.225);
+    width: 1200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.acc-firstrow {
+    width: 1200px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px; 
+    flex-direction: row;
+}
+
+.acc-box img {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.acc-description {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+
+.additional-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.additional-images img {
+    max-width: 100%;
+    margin: 50px;
+}
